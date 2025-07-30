@@ -1,1 +1,36 @@
-.flex-container
+.flex-container {
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item {
+    border: 1px solid seagreen;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 600px;
+
+}
+
+#child-1 {
+    background-color: lightcoral;
+    width: 600px;
+}
+
+.child-2 {
+    background-color: lightgreen;
+}
+
+.child-3 {
+    background-color: lightsalmon;
+}
+
+.child-4 {
+    background-color: aquamarine;
+}
